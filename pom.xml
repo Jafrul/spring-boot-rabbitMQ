@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.message.bocker</groupId>
-	<artifactId>rabbitmq</artifactId>
+	<artifactId>spring-boot-rabbitMQ</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>rabbitmq</name>
 	<description>Spring boot with rabbitMQ message brocker</description>

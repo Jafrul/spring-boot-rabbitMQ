@@ -1,4 +1,4 @@
-package com.message.bocker.controller;
+	package com.message.bocker.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,8 +10,8 @@ import com.message.bocker.configure.RabbitMQSender;
 import com.message.bocker.model.Employee;
 
 @RestController
-@RequestMapping(value = "/javainuse-rabbitmq/")
-public class RabbitMQWebController {
+@RequestMapping(value = "/ahasan-rabbitmq/")
+public class RabbitMQProducer {
 
 	@Autowired
 	private RabbitMQSender rabbitMQSender;
